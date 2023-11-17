@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!-- action attribute determines the action upon submission -->
+    <form action="./confirmation.html">
+        <label for="fname">First Name</label>
+        <input id="fname" type="text" placeholder="John" required>
+        <br>
+        <br>
+        <label for="lname">Last Name</label>
+        <input id="lname" type="text" placeholder="Smith" required>
+        <br>
+        <br>
+        <label for="pass">Password</label>
+        <input id="pass" type="password" maxlength="12" required>
+        <br>
+        <br>
+        <label for="email">E-mail</label>
+        <input id="email" type="email" placeholder="email@email.email">
+        <br>
+        <br>
+        <label for="phone">Phone Number</label>
+        <input id="phone" type="tel" placeholder="012345678">
+        <br>
+        <br>
+        <label for="dob">DOB</label>
+        <input id="dob" type="date" required>
+        <br>
+        <br>
+        <input type="reset">
+        <input type="submit" value="Sign-Up">
+    </form>
+    <br>
+    <br>
+    <form action="./confirmation.html">
+    <!-- Radio buttons -->
+            Give us your favourite Beans?
+            <br>
+            <input type="radio" id="lima" name="fav_beans" value="LIMA">
+            <label for="lima">Lima</label><br>
+            <input type="radio" id="baked" name="fav_beans" value="BEANS">
+            <label for="baked">Baked</label><br>
+            <input type="radio" id="jelly" name="fav_beans" value="Jelly">
+            <label for="jelly">Jelly</label>
+            <br>
+            <br>
+    <!-- Checkboxes -->
+            Which of these Eggsbox Series Eggs have you played?
+            <br>
+            <input type="checkbox" id="egggame1" name="egggame1" value="Eggxile">
+            <label for="egggame1"> Path of Eggxile</label><br>
+            <input type="checkbox" id="egggame2" name="egggame2" value="Eggxtreme">
+            <label for="egggame2"> Eggxtreme Racing</label><br>
+            <input type="checkbox" id="egggame3" name="egggame3" value="Eggcho">
+            <label for="egggame3"> Eggcho Location: Lost Egglantis</label><br>
+            <br>
+    <!-- text area -->
+            <label for="dogreview">holla at yo dog:</label>
+            <br>
+            <textarea id="dogreview" name="dogreview" rows="4" cols="50">
+In this day and age we need to know about all the best and brightest puppies. Tell us about yours!
+            </textarea>
+            <br>
+            <br>
+    <!-- A HTML Drop-Down List -->
+            <label for="goodboyslist">How Good is your Dog?:</label>
+            <select name="goodboyslist" id="goodboyslist">
+            <option value="good">A Good Boy</option>
+            <option value="vgood">A real Good Boy</option>
+            <option value="xgood">Simply the Best</option>
+            <option value="xvgood">Better than all the Rest</option>
+            
+</select>
+        <br>
+        <br>
+    <!-- File Upload input -->
+        Please upload your dog pics:
+        <br>
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload Image" name="submit">
+        <br>
+        <br>
+        <input type="reset"> <input type="submit">
+    </form>
+</body>
+</html>
+<!-- Day two challenge
+Radio buttons
+Checkboxes
+File upload input 
+A text area
+A dropdown list
+ -->
